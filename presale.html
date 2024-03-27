@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.5.4/dist/ethers.umd.min.js"></script>
+    <script src="presale.js" type="module"></script> <!-- Add this line to import your external JavaScript file -->
+    <style>
+      model-viewer{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 20px;
+      }
+    </style>
+    <title>Craft&Redeem</title>
+  </head>
+  <body>
+    <w3m-core-button></w3m-core-button>
+    <div class="button-container">
+      <button id="writeButton" style="width: 160px; height: 40px; border-radius: 30px;">Buy</button>
+      <button id="readButton" style="width: 160px; height: 40px; border-radius: 30px;">Read</button>
+    </div>
+
+    <script>
+    //   document.addEventListener('DOMContentLoaded', function () {
+    //     const writeButton = document.getElementById('writeButton');
+    //     // const readButton = document.getElementById('readButton');
+    //     const quantityInput = document.getElementById('quantity');
+    //     const toAddress = document.getElementById('to');
+
+    //     writeButton.addEventListener('click', function () {
+    //       // Get the value from the text field and perform the necessary action
+    //       const quantityValue = quantityInput.value;
+    //       const addValue = toAddress.value;
+    //       // Perform your logic for the "Write" button here with the quantityValue
+    //       console.log('Write button clicked with quantity:', quantityValue);
+    //     });
+
+        // readButton.addEventListener('click', function () {
+        //   // Perform your logic for the "Read" button here
+        //   console.log('Read button clicked');
+        // });
+    //   });
+    </script>
+  </body>
+</html>
